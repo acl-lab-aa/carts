@@ -40,7 +40,7 @@ public class HealthCheckController {
        }
        
        healthChecks.add(app);
-       // healthChecks.add(database); No need for this one.
+       // healthChecks.add(database); 
 
        map.put("health", healthChecks);
        return map;
